@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 200px auto;
+    border-radius: 17px 17px 20px 20px;
+}
+
+.text {
+    width: 230px;
+}
+
+.head {
+    width: 280px;
+}
+
+.items {
+    margin: 10px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.5; /* This is used to make the text faint */
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    border-radius: 10px 10px;
+    margin-bottom: 10px;
+}
