@@ -20,14 +20,6 @@ body {
     border-radius: 17px 17px 20px 20px;
 }
 
-.text {
-    width: 230px;
-}
-
-.head {
-    width: 280px;
-}
-
 .items {
     margin: 10px;
     font-family: 'Outfit', sans-serif;
@@ -36,12 +28,14 @@ body {
 
 h2 {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
+    width: 280px;
 }
 
 p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
+    width: 230px;
     opacity: 0.5; /* This is used to make the text faint */
 }
 
